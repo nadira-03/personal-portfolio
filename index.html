@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nadira Tasnim | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,13 +31,13 @@
                 <h2>and I love creating.</h2>
                 <p class="hero-description">
                     I'm a Computer Science and Engineering student interested
-                    in software development, research and the creative side
-                    of technology. I enjoy exploring ideas, building projects
+                    in the creative side of technology. I enjoy exploring 
+                    ideas and building fun projects. 
                     and combining technical problem-solving with creativity.
                 </p>
                 <div class="hero-buttons">
-                    <a href="assets/documents/cv.pdf" class="btn btn-primary" download>
-                        Download CV
+                    <a href="assets/documents/cv.pdf" class="btn btn-primary">
+                        About Me
                     </a>
                     <a href="#contact" class="btn btn-secondary">
                         Contact Me
@@ -48,16 +51,17 @@
                 <h2>Projects</h2>
             </div>
             <div class="project-timeline">
-                <!-- PROJECT 1 -->
+                
                 <div class="project-item">
                     <button class="project-toggle" aria-expanded="false">
                         <div class="project-info">
-                            <span class="project-category">RESEARCH · ROBOTICS</span>
+                            <span class="project-category">RESEARCH · ROBOTICS · ONGOING</span>
                             <h3>Art Gallery Problem</h3>
                         </div>
                         <span class="project-icon">+</span>
                     </button>
                     <div class="project-details" hidden>
+                        <h4>Summer Internship and Master's Thesis</h4>
                         <p>
                             Research into visibility and coverage in robot navigation,
                             exploring how landmarks and obstacles affect a robot's
@@ -68,7 +72,31 @@
                         </p>
                     </div>
                 </div>
-                <!-- PROJECT 2 -->
+  
+                 <div class="project-item">
+                    <button class="project-toggle" aria-expanded="false">
+                        <div class="project-info">
+                            <span class="project-category">AI ENGINEERING PROJECT · ONGOING</span>
+                            <h3>SimpleMeal</h3>
+                        </div>
+                        <span class="project-icon">+</span>
+                    </button>
+                    <div class="project-details" hidden>
+                        <h4>Course Project</h4>
+                        <p>
+                            Developing an AI-powered meal-planning system using 
+                            multi-agent orchestration.
+                        </p>
+                        <p class="project-tech">
+                            Technologies: Google ADK, Ragas, Claude Code
+                        </p>
+                        <a href="https://github.com/nadira-03/"
+                        target="_blank" rel="noopener noreferrer">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+
                 <div class="project-item">
                     <button class="project-toggle" aria-expanded="false">
                         <div class="project-info">
@@ -78,13 +106,35 @@
                         <span class="project-icon">+</span>
                     </button>
                     <div class="project-details" hidden>
+                        <h4>Personal Project</h4>
                         <p>
                             A small desktop application built with Electron that
                             helps users make random decisions through an interactive
                             interface.
                         </p>
+                        <p>
+                            I made the art using Aseprite and I wanted the app to be something 
+                            cute and simple that I could send to my friends. I had a lot of 
+                            fun designing the interface. I showed the prototype to my friends 
+                            and added some quality-of-life changes based on their feedback, e.g., 
+                            pressing Enter to insert an option, and not letting the user decide 
+                            until they have inserted at least two options.
+                        </p>
+                        <p>
+                            Figuring out how to make the buttons 
+                            move and the cards stack over each other was the most challenging 
+                            part of this project, but I'm very happy with the result!
+                        </p>
+                        <p>
+                            You can fork the source code and run the app in your device or download 
+                            it directly. Instructions on GitHub.
+                        </p>
                         <p class="project-tech">
-                            Technologies: JavaScript, Electron, HTML, CSS
+                            Technologies: JavaScript, Electron, HTML, CSS, Aseprite
+                        </p>
+                        <p class="project-tech">
+                            Skills learned: UI/UX Design, pixelart and pixel animation, creative 
+                            thinking, user-centered design
                         </p>
                         <a href="https://github.com/nadira-03/decision-maker"
                         target="_blank" rel="noopener noreferrer">
@@ -92,27 +142,111 @@
                         </a>
                     </div>
                 </div>
-                <!-- PROJECT 3 -->
+                
                 <div class="project-item">
                     <button class="project-toggle" aria-expanded="false">
                         <div class="project-info">
-                            <span class="project-category">EMBEDDED SYSTEMS · IOT</span>
-                            <h3>IoT & TinyML Projects</h3>
+                            <span class="project-category">EMBEDDED SYSTEMS · FABLAB</span>
+                            <h3>Dancing Robot</h3>
                         </div>
                         <span class="project-icon">+</span>
                     </button>
                     <div class="project-details" hidden>
+                        <h4>UBISS 2026 Project</h4>
                         <p>
-                            A collection of experiments involving embedded systems,
-                            sensor data, activity classification and connected devices.
+                            A tree-robot that reacts to light and touch/vibration and lets you 
+                            know exactly how it's feeling through its LCD screen.
+                        </p>
+                        <p>
+                            This was a two-people group project made over a course of six-days 
+                            for the UB Summer School. Making a functioning robot in six days seemed 
+                            near impossible to me, especially with little to no prior experience. 
+                            But we somehow got it done!
+                        </p>
+                        <p>
+                            The body of the robot was made with laser-cutting and the stem by 3D-
+                            printing. An ESP32 kit was provided to us and every resource used was 
+                            available in our FabLab. The criteria of the project was to build a 
+                            robot where we must use four devices from the ESP32 kit that we picked 
+                            by lottery. Ours were photoresistor, LCD module, vibration switch, and 
+                            push button.
+                        </p>
+                        <p>
+                            I sewed the fabric around the stem using the sewing machine in our lab, 
+                            which was also a new experience for me. I crocheted the flowers 
+                            and the leaves myself.
                         </p>
                         <p class="project-tech">
-                            Technologies: Raspberry Pi Pico W, MPU6050, TinyML,
-                            ThingSpeak, Node-RED
+                            Technologies: ESP32, servo motor, laser cutter & 3d printer, sensors 
+                            and electronics
+                        </p>
+                        <p class="project-tech">
+                            Skills learned: embedded systems development, soldering, teamwork 
+                            collaboration, problem-solving, hardware prototyping
                         </p>
                     </div>
                 </div>
-                <!-- PROJECT 4 -->
+                
+                <div class="project-item">
+                    <button class="project-toggle" aria-expanded="false">
+                        <div class="project-info">
+                            <span class="project-category">DIGITAL FABRICATION</span>
+                            <h3>Fab Lab Projects</h3>
+                        </div>
+                        <span class="project-icon">+</span>
+                    </button>
+                    <div class="project-details" hidden>
+                        <h4>Course Projects</h4>
+                        <p>
+                            Explored digital fabrication by designing and creating various 
+                            projects using the Fab Lab's tools and equipment.
+                        </p>
+                        <a href="https://students-template-site-76da97.gitlab.io/"
+                        target="_blank" rel="noopener noreferrer">
+                            Explore my Fab Lab projects →
+                        </a>
+                        <p class="project-tech">
+                            Technologies: Laser cutting, 3D printing, CNC milling, vinyl cutting
+                        </p>
+                        <p class="project-tech">
+                            Skills learned: prototyping, creative problem-solving, time management, hands-on 
+                            experimentation
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <button class="project-toggle" aria-expanded="false">
+                        <div class="project-info">
+                            <span class="project-category">NATURAL LANGUAGE PROCESSING</span>
+                            <h3>NLP Text Classification</h3>
+                        </div>
+                        <span class="project-icon">+</span>
+                    </button>
+                    <div class="project-details" hidden>
+                        <h4>Course Project</h4>
+                        <p>
+                            Explored text classification techniques through natural language 
+                            processing, applying linguistic preprocessing and machine learning 
+                            methods to analyse textual data.
+                        </p>
+                        <p>
+                            I analysed stopword occurrence in Old English Corpus.
+                        </p>
+                        <p class="project-tech">
+                            Technologies: Python, NLTK, Scikit-learn, WordNEt
+                        </p>
+                        <p class="project-tech">
+                            Skills learned: Text Processing, Feature Extraction, 
+                            Model Evaluation, Data Analysis, Experimental Design
+                        </p>
+                        <a href="https://github.com/nadira-03/nlp-project-stopword-oracc"
+                        target="_blank" rel="noopener noreferrer">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+
                 <div class="project-item">
                     <button class="project-toggle" aria-expanded="false">
                         <div class="project-info">
@@ -122,6 +256,7 @@
                         <span class="project-icon">+</span>
                     </button>
                     <div class="project-details" hidden>
+                        <h4>Bachelor's Project</h4>
                         <p>
                             A research project investigating the interactions
                             between epidemic propagation and human behavioural

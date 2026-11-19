@@ -26,7 +26,7 @@ html {
 body {
     background-color: var(--background);
     color: var(--text-primary);
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* ---------- NAVIGATION ---------- */
@@ -189,6 +189,13 @@ footer p {
 
 .section-heading h2 {
     font-size: 42px;
+}
+
+.project-details h4 {
+    color: var(--text-primary);
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
 
 /* Timeline */
